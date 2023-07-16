@@ -68,3 +68,6 @@ class EntriesController < ApplicationController
       params.require(:entry).permit(:meal_type, :calories, :proteins, :carbohydrates, :fats)
     end
 end
+
+
+
